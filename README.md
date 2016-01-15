@@ -10,6 +10,9 @@ heroku config:set WEBHOOK_URL="https://hooks.slack.com/services/..."
 git push heroku master
 ```
 
+## Configuring loggly
+In loggly, create an alert HTTP/S endpoint with the url https://<app-name>.herokuapp.com/log, with method GET.
+
 ## License
 ```
 Copyright © 2015 The New York Public Library, Astor, Lenox, and Tilden Foundations

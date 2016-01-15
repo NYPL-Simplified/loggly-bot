@@ -11,7 +11,7 @@ git push heroku master
 ```
 
 ## Configuring loggly
-In loggly, create an alert HTTP/S endpoint with the url https://<app-name>.herokuapp.com/log, with method GET.
+In loggly, create an alert HTTP/S endpoint with the url https://_app-name_.herokuapp.com/log, with method GET.
 
 ## License
 ```
